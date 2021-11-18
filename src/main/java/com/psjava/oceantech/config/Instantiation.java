@@ -43,9 +43,9 @@ public class Instantiation implements CommandLineRunner {
 		Post post1 = new Post(null, new Date(), "Pacific", "2.32.323", "42", "8.4", new AuthorDTO(adelson));
 		Post post2 = new Post(null, new Date(), "Atlantic", "32.32.34.5", "42", "8.4", new AuthorDTO(adelson));
 
-		CommentDTO c1 = new CommentDTO("Teste", new Date(), new AuthorDTO(matheus));
-		CommentDTO c2 = new CommentDTO("Teste 222", new Date(), new AuthorDTO(chiode));
-		CommentDTO c3 = new CommentDTO("Teste 333", new Date(), new AuthorDTO(matheus));
+		CommentDTO c1 = new CommentDTO("40", "8.4", new Date(), new AuthorDTO(matheus));
+		CommentDTO c2 = new CommentDTO("42", "8.3", new Date(), new AuthorDTO(chiode));
+		CommentDTO c3 = new CommentDTO("46", "8.5", new Date(), new AuthorDTO(matheus));
 		
 		post1.getAudit().addAll(Arrays.asList(c1, c2));
 		post2.getAudit().addAll(Arrays.asList(c3));
