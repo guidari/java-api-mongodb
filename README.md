@@ -1,6 +1,7 @@
 # java-api-mongodb
 
 Vídeo do api: https://youtu.be/qMM2Z_ICJow
+
 Na API Java é possível fazer o CRUD completo de usuários.
 
 Cada usuário pode estar associado com um post ou mais, assim como é possível o usuário auditar ou comentar o post de outro usuário, caso ele tenha feito a pesquisa em uma localização próxima e não queira criar um outro post.
