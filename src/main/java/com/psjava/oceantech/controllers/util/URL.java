@@ -1,4 +1,4 @@
-package com.psjava.oceantech.resources.util;
+package com.psjava.oceantech.controllers.util;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;

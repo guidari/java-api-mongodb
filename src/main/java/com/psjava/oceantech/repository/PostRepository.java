@@ -7,7 +7,7 @@ import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.mongodb.repository.Query;
 import org.springframework.stereotype.Repository;
 
-import com.psjava.oceantech.domain.Post;
+import com.psjava.oceantech.model.Post;
 
 @Repository
 public interface PostRepository extends MongoRepository<Post, String> {

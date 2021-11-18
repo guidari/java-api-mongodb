@@ -6,7 +6,7 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.psjava.oceantech.domain.User;
+import com.psjava.oceantech.model.User;
 import com.psjava.oceantech.dto.UserDTO;
 import com.psjava.oceantech.repository.UserRepository;
 import com.psjava.oceantech.services.exception.ObjectNotFoundException;

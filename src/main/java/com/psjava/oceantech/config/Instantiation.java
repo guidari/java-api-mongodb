@@ -9,8 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;
 
-import com.psjava.oceantech.domain.Post;
-import com.psjava.oceantech.domain.User;
+import com.psjava.oceantech.model.Post;
+import com.psjava.oceantech.model.User;
 import com.psjava.oceantech.dto.AuthorDTO;
 import com.psjava.oceantech.dto.CommentDTO;
 import com.psjava.oceantech.repository.PostRepository;

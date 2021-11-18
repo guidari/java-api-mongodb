@@ -2,7 +2,7 @@ package com.psjava.oceantech.dto;
 
 import java.io.Serializable;
 
-import com.psjava.oceantech.domain.User;
+import com.psjava.oceantech.model.User;
 
 public class AuthorDTO implements Serializable {
 	private static final long serialVersionUID = 1L;

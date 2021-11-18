@@ -1,4 +1,4 @@
-package com.psjava.oceantech.resources.exception;
+package com.psjava.oceantech.controllers.exception;
 
 import java.io.Serializable;
 

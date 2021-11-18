@@ -1,4 +1,4 @@
-package com.psjava.oceantech.resources;
+package com.psjava.oceantech.controllers;
 
 import java.net.URI;
 import java.util.List;
@@ -13,14 +13,14 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import com.psjava.oceantech.domain.Post;
-import com.psjava.oceantech.domain.User;
+import com.psjava.oceantech.model.Post;
+import com.psjava.oceantech.model.User;
 import com.psjava.oceantech.dto.UserDTO;
 import com.psjava.oceantech.services.UserService;
 
 @RestController
 @RequestMapping(value="/users")
-public class UserResource {
+public class UserController {
 
 	@Autowired
 	private UserService service;

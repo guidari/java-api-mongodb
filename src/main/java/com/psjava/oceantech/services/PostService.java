@@ -7,7 +7,7 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.psjava.oceantech.domain.Post;
+import com.psjava.oceantech.model.Post;
 import com.psjava.oceantech.repository.PostRepository;
 import com.psjava.oceantech.services.exception.ObjectNotFoundException;
 

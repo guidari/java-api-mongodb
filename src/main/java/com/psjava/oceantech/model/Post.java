@@ -1,4 +1,4 @@
-package com.psjava.oceantech.domain;
+package com.psjava.oceantech.model;
 
 import java.io.Serializable;
 import java.util.ArrayList;

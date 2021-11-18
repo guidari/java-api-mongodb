@@ -1,4 +1,4 @@
-package com.psjava.oceantech.resources;
+package com.psjava.oceantech.controllers;
 
 import java.util.Date;
 import java.util.List;
@@ -11,13 +11,13 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.psjava.oceantech.domain.Post;
-import com.psjava.oceantech.resources.util.URL;
+import com.psjava.oceantech.model.Post;
+import com.psjava.oceantech.controllers.util.URL;
 import com.psjava.oceantech.services.PostService;
 
 @RestController
 @RequestMapping(value="/posts")
-public class PostResource {
+public class PostController {
 
 	@Autowired
 	private PostService service;
